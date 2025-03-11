@@ -96,7 +96,6 @@ div{
  /*...humburger stlying...*/
  .hamburger-menu {
   display: none;
-  position: absolute;
   right: 20px;
   top: 20px;
 }
@@ -125,6 +124,7 @@ div{
       display: flex;
   }
 }
+
 
 body {
   margin: 0;
