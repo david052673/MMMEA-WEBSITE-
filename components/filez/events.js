@@ -23,10 +23,7 @@ function handleTouchMove(evt) {
 
   if (Math.abs(xDiff) > Math.abs(yDiff)) {
     evt.preventDefault();
-  }
-
-
-}
+  }}
 
 function toggleMenu() {
   const navLinks = document.getElementById('navLinks');
