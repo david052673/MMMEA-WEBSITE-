@@ -33,13 +33,16 @@ function toggleMenu() {
 document.addEventListener('DOMContentLoaded', () => {
   let slideIndex = 0; // Initialize the slide index
   const slides = document.querySelectorAll('.sacj'); // Select all slide elements
+  const links = document.querySelectorAll('.slideshow a'); // Select all links wrapping the slides
 
   // Function to show a specific slide
   function showSlide(index) {
       slides.forEach((slide, i) => {
           slide.classList.remove('active'); // Hide all slides
+          links[i].style.pointerEvents = 'none'; // Disable link for non-active slides
           if (i === index) {
               slide.classList.add('active'); // Show the current slide
+              links[i].style.pointerEvents = 'auto'; // Enable link for the active slide
           }
       });
   }
@@ -58,10 +61,20 @@ document.addEventListener('DOMContentLoaded', () => {
   setInterval(() => {
       changeSlide(1); // Automatically move to the next slide
   }, 8000);
+
+  // Show the first slide initially
+  showSlide(slideIndex);
 });
 
 
+function pauseAnimation() {
+  const movingText = document.querySelector('.moving-text');
+  movingText.style.animationPlayState = 'paused'; // Pauses the animation
+}
 
-
+function resumeAnimation() {
+  const movingText = document.querySelector('.moving-text');
+  movingText.style.animationPlayState = 'running'; // Resumes the animation
+}
 
 
