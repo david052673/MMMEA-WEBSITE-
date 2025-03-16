@@ -126,7 +126,7 @@ div{
   color: var(--black);
 }
 
-@media (max-width: 1902px) {
+@media (max-width: 1302px) {
   .hamburger-menu {
       display: block;
   }
