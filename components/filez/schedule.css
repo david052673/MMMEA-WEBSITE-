@@ -78,9 +78,7 @@ div{
     width: 100%;
     height: 100%;
     }
-  .sched{
-    margin-top:40px;
-  }
+
   .topspace{
     position: fixed;
     top: 0;
@@ -88,6 +86,7 @@ div{
     right: 0;
     height: 22px;
     background-color:rgb(10, 137, 33);
+    z-index:17000;
     
   }
   
@@ -154,13 +153,20 @@ nav, .d, .b, .topspace {
   
   @media (max-width: 1920px) {
     .c {
-    height:50px;
+    height:30px;
     }}
-  @media (max-width: 1920px) {
-      .sched {
-       padding-top:40px;
+    @media (max-width:768px) {
+
+      .hamburger{
+        margin-top:-20px;
+        font-size:22px;
+        margin-right:10px;
+          
       }
-    }
+      .a{
+        font-size:8px;
+        }}
+ 
   /*...additional styling for nav links on small screens...*/
   @media (max-width: 1509px) {
     .b.open {
@@ -190,3 +196,59 @@ nav, .d, .b, .topspace {
       text-align: left;
       color:white;
     }}
+
+
+      .image-container {
+        position: relative;
+        display: inline-block; /* Maintains the container's inline layout */
+      }
+      
+      /* Keeps the image unaffected and properly positioned */
+      .cont {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 89px; /* Ensures your custom positioning */
+      }
+      
+      /* Overlay with bottom-to-top fade */
+      .image-container .overlay {
+        position: absolute;
+        bottom: 0; /* Stays anchored to the bottom of the container */
+        left: 0;
+        width: 100%;
+        height: 76%; /* Full coverage of the image */
+        background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)78%);
+        pointer-events: none; /* Prevent interaction issues */
+      }
+      @media (max-width: 768px) {
+        .cont {
+          object-fit:fill;
+         margin-top:63px;
+         width:524px;
+         height:149px;
+        }}
+
+
+     .sched{
+      margin-top:10px;
+      position:relative;
+      margin-top:-174px;
+      color:white;
+      margin-left:6%;
+    }
+     @media (max-width: 768px) {
+      .sched {
+       font-size:18px;
+       top:98px;
+      }
+      .image-container{
+        margin-top:-1px;
+      }
+     
+    }
+    @media (max-width: 768px) {
+      .overlay {
+       height:23px;
+      }}
+

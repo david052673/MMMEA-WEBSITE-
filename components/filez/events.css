@@ -77,9 +77,7 @@ html, body {
     width: 100%;
     height: 100%;
     }
-  .cont{
-    margin-top:35px;
-  }
+
   .topspace{
     position: fixed;
     top: 0;
@@ -87,6 +85,7 @@ html, body {
     right: 0;
     height: 22px;
     background-color:rgb(10, 137, 33);
+    z-index:17000;
     
   }
 
@@ -123,6 +122,26 @@ html, body {
       display: flex;
   }
 }
+@media (max-width: 1920px) {
+  .a {
+
+    font-size:10px;
+    flex-direction: column;
+  }}
+@media (max-width:768px) {
+
+  .hamburger{
+    margin-top:-7px;
+    font-size:22px;
+    margin-right:10px;
+      
+  }
+  .a{
+    font-size:8px;
+  }
+}
+  
+
 
 body {
   margin: 0;
@@ -145,22 +164,13 @@ nav, .d, .b, .topspace {
   }
 }
 
-@media (max-width: 1920px) {
-  .a {
 
-    font-size:10px;
-    flex-direction: column;
-  }}
   
   @media (max-width: 1920px) {
     .c {
-    height:50px;
+    height:30px;
     }}
-  @media (max-width: 1920px) {
-      .cont {
-       padding-top:43px;
-      }
-    }
+
 
   /*...additional styling for nav links on small screens...*/
   @media (max-width: 1509px) {
@@ -191,3 +201,47 @@ nav, .d, .b, .topspace {
       text-align: left;
       color:white;
     }}
+
+    .cont{
+      margin-top:70px;
+    }
+
+
+      .image-container {
+        position: relative;
+        display: inline-block; /* Maintains the container's inline layout */
+      }
+      
+      /* Keeps the image unaffected and properly positioned */
+      .cont {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 70px; /* Ensures your custom positioning */
+      }
+      
+      /* Overlay with bottom-to-top fade */
+      .image-container .overlay {
+        position: absolute;
+        bottom: 0; /* Stays anchored to the bottom of the container */
+        left: 0;
+        width: 100%;
+        height: 100%; /* Full coverage of the image */
+        background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)38%);
+        pointer-events: none; /* Prevent interaction issues */
+      }
+      @media (max-width: 768px) {
+        .cont {
+          object-fit:fill;
+         margin-top:63px;
+         width:524px;
+         height:149px;
+        }}
+   .textoverlay{
+    position:relative;
+    margin-top:-69px;
+    z-index:100;
+    color:white;
+    margin-bottom:4%;
+    margin-left:5%;
+   }

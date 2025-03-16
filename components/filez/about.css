@@ -202,9 +202,9 @@ nav, .d, .b, .topspace {
     }
 @media(max-width:768px){
   .hamburger{
-    margin-top:10px;
-    font-size:20px;
-    margin-right:56px;
+    margin-top:8px;
+    font-size:22px;
+    margin-right:33px;
   }
 }
   /*...additional styling for nav links on small screens...*/
@@ -241,7 +241,10 @@ nav, .d, .b, .topspace {
       }
     }
 
-
+    
+    .mmmeahistory{
+      margin-left:2%;
+    }
 
 
     .vm{
@@ -252,12 +255,15 @@ nav, .d, .b, .topspace {
       display:flex;
       direction:column;
       align-items:center;
-      background:rgb(64, 64, 113);;
+      background:rgb(64, 64, 113);
+      margin-top:3%;
     }
     .div11{
-      margin:20px;
+      margin-right:20px;
       margin-left:5%;
-    
+        }
+    .philosophypic{
+      margin-top:-163px;
     }
     .div22{
       margin:50px;
@@ -270,6 +276,7 @@ nav, .d, .b, .topspace {
       font-size:25px;
       color:white;
     }
+
     @media (max-width: 768px) {
       .vision {
         flex-direction: column; 
@@ -288,5 +295,162 @@ nav, .d, .b, .topspace {
            height:227px;
            object-fit:fill;
            margin-top:0%;
-          }}    
-      
+          }}  
+  .first{
+    color:rgb(36, 7, 151);
+    margin-left:4%;
+    font-size:26px;
+  } 
+  .second{
+    margin-left:4%;
+  } 
+
+  .principlea{
+ display:flex;
+ margin-left:2%;
+ background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
+  }
+  .principleb{
+    display:flex;
+    margin-left:2%;
+    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
+  }
+
+  .principlec{
+    display:flex;
+    margin-left:2%;
+    background:green;
+    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
+  }
+  .principled{
+    display:flex;
+    margin-left:2%;
+    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
+  }
+  .principlee{
+    display:flex;
+    margin-left:2%;
+    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
+  }
+  .pb1{
+    flex:1.5;
+padding-left:2%;
+color:rgb(245, 244, 248)
+  }
+  .pb2{
+    flex:1.5;
+    padding-left:2%;
+    color:rgb(235, 235, 236)
+  }
+  .pb3{
+    flex:1.5;
+    padding-left:2%;
+    color:rgb(242, 232, 233)
+  }
+  .pb4{
+    flex:1.5;
+  padding-left:2%;
+  color:rgb(238, 241, 238)
+  }
+  .pb5{
+    flex:1.5;
+    padding-left:2%;
+    color:rgb(230, 233, 230)
+  }
+  .pb11{
+    flex:2.5;
+
+  }
+  .pb22{
+    flex:2.5;
+    
+  }
+  .pb33{
+    flex:2.5;
+    
+  }
+  .pb44{
+    flex:2.5;
+    
+  }
+  .pb55{
+    flex:2.5;
+    
+  }
+  @media(max-width:768px){
+    .fisrt, .second,.principlea,.principleb,.principlec, .principled, .principlee{
+      font-size:14px;
+    }
+  }
+
+
+  .footer{
+    display:flex;
+    background:black;
+    margin-top:4%;
+    
+  }
+  .footer1{
+    flex:1;
+   display:block;
+   font-size:22px;
+   color:white;
+   margin-left:1%;
+   
+  }
+  @media(max-width: 768px){
+    .footer1{
+     font-size:18px;
+    }
+  }
+  .footer2{
+    flex:1;
+   display:block;
+   color:white;
+   
+  }
+  
+  .a12x{
+    text-decoration:none;
+    font-size:22px;
+    color:white;
+  }
+  .a12x:hover{
+    color:red
+  }
+  @media(max-width: 768px){
+    .a12x{
+     font-size:18px;
+     margin-left:2%;
+    }
+  }
+  .footerpage{
+    display:flex;
+    background:rgba(249, 30, 30, 0.89);
+
+  }
+  .footerpart{
+    flex:6;
+    margin-left:1%;
+  }
+  .footertext{
+    font-size:17px;
+    color:black;
+  }
+  .social-icons {
+    flex:1;
+    gap: 25px;
+    list-style: none;
+    padding-top:1%;
+    margin-left:10%;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+  }
+  
+  .social-icons a:hover {
+    color:blue;
+  }
