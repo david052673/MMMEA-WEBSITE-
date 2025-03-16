@@ -452,10 +452,10 @@ body {
 }
 @media (max-width:768px){
   .sscl{
-    margin-left:5px;
+    margin-left:1px;
     padding:0px;
     left:0px;
-    height:373px;
+    height:353px;
     width:362px;
     object-fit:fill;
   }}
