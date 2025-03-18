@@ -75,6 +75,68 @@ div{
     z-index:17000;
     
  }
+ /*-----------styling about us nav link------*/
+ .hover-word {
+  position: relative;
+  color: rgb(32, 47, 136);
+  text-decoration: none;
+  cursor: pointer;
+  padding-right:23px;
+}
+
+.hover-word{
+  padding-right:23px;
+}
+
+.hover-word:active {
+  color: red;
+}
+.hover-word:hover{
+  color:red;
+}
+
+.hover-word{
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+}
+.popup {
+  display: none;
+  position: absolute;
+  top: 27px;
+  left: -30px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 17000;
+  width:122%;
+  height:207%;
+
+}
+
+.hover-word:hover .popup {
+  display: block;
+}
+
+.popup a {
+  display: block;
+  color: blue;
+  text-decoration: none;
+  margin: 5px 0; 
+  font-size:16px;
+}
+.popup a:hover{
+  color:red;
+}
+
+
+
+
+
+
 html, body {
     margin:0;
     padding-top:0%;
@@ -257,7 +319,7 @@ nav, .d, .b, .topspace {
     height: 447px; /* Matches the container's height */
     object-fit: fill; /* Ensures the image covers the space without distortion */
     opacity: 0; /* Initially hide all images */
-    transition: opacity 1s ease-in-out; /* Smooth fading effect */
+    transition: opacity 3s ease-in-out; /* Smooth fading effect */
 }
 @media (max-width: 768px) {
   .sacj {
@@ -276,7 +338,7 @@ nav, .d, .b, .topspace {
     
   }
 .sacj.active {
-    opacity: 1; /* Show the active image */}
+    opacity: 4; /* Show the active image */}
 
     /* Slideshow navigation buttons */
 .prev, .next {
@@ -413,7 +475,7 @@ body {
 }
 
 .quick{
-  margin-top:4%;
+  margin-top:2%;
 }
 @media(max-width:768px){
   .quick{
@@ -424,7 +486,8 @@ body {
   margin-left:8%;
   margin-right:8%;
   width:auto;
-  dispaly:flex;  
+  dispaly:flex; 
+  margin-top:-16px; 
 }
 
 .abts{
@@ -688,12 +751,13 @@ color:white;
 }
 @media(max-width:768px){
   .schedulec{
-    
+
   }
 }
 .footer{
   display:flex;
   background:black;
+  
   
 }
 .footer1{
@@ -705,6 +769,9 @@ color:white;
  
 }
 @media(max-width: 768px){
+  .footer{
+    display:block;
+  }
   .footer1{
    font-size:18px;
   }
@@ -732,7 +799,7 @@ color:white;
 }
 .footerpage{
   display:flex;
-  background:rgba(249, 30, 30, 0.89);
+  background:rgba(226, 21, 21, 0.89);
 }
 .footerpart{
   flex:6;

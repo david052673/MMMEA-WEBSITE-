@@ -32,3 +32,34 @@ function toggleMenu() {
   const navLinks = document.getElementById('navLinks');
   navLinks.classList.toggle('open');
 }
+
+
+/*--------js for two link word----*/
+const hoverWord = document.getElementById("hoverWord");
+const popup = document.getElementById("popup");
+let timeout;
+
+
+hoverWord.addEventListener("mouseenter", () => {
+  clearTimeout(timeout); 
+  popup.style.display = "block";
+});
+
+
+hoverWord.addEventListener("mouseleave", () => {
+  timeout = setTimeout(() => {
+    popup.style.display = "none"; 
+  }, 1000);  
+});
+
+ 
+popup.addEventListener("mouseenter", () => {
+  clearTimeout(timeout); 
+});
+
+
+popup.addEventListener("mouseleave", () => {
+  timeout = setTimeout(() => {
+    popup.style.display = "none";
+  }, 1000);
+});

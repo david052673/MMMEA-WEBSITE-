@@ -78,3 +78,33 @@ function resumeAnimation() {
 }
 
 
+
+  
+const hoverWord = document.getElementById("hoverWord");
+const popup = document.getElementById("popup");
+let timeout;
+
+// Show the popup on hover
+hoverWord.addEventListener("mouseenter", () => {
+  clearTimeout(timeout); // Clear any existing hide timer
+  popup.style.display = "block"; // Show the popup
+});
+
+// Hide the popup with a delay
+hoverWord.addEventListener("mouseleave", () => {
+  timeout = setTimeout(() => {
+    popup.style.display = "none"; // Hide the popup
+  }, 1000); // Delay for 1 second before hiding
+});
+
+// Prevent popup from hiding if it's hovered over
+popup.addEventListener("mouseenter", () => {
+  clearTimeout(timeout); // Cancel the hide timer
+});
+
+// Hide popup when leaving it, with the same delay
+popup.addEventListener("mouseleave", () => {
+  timeout = setTimeout(() => {
+    popup.style.display = "none";
+  }, 1000);
+});

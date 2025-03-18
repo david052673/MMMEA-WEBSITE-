@@ -76,6 +76,65 @@ nav{
   top:22px;
   z-index: 1000;
  }
+  /*-----------styling about us nav link------*/
+  .hover-word {
+    position: relative;
+    color: rgb(32, 47, 136);
+    text-decoration: none;
+    cursor: pointer;
+    padding-right:23px;
+  }
+  
+  .hover-word{
+    padding-right:23px;
+  }
+  
+  .hover-word:active {
+    color: red;
+  }
+  .hover-word:hover{
+    color:red;
+  }
+  
+  .hover-word{
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  .popup {
+    display: none;
+    position: absolute;
+    top: 27px;
+    left: -30px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 17000;
+    width:122%;
+    height:207%;
+  
+  }
+  
+  .hover-word:hover .popup {
+    display: block;
+  }
+  
+  .popup a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    margin: 5px 0; 
+    font-size:16px;
+  }
+  .popup a:hover{
+    color:red;
+  }
+
+
+  
 
  html, body {
     margin: 0;
@@ -382,12 +441,11 @@ color:rgb(245, 244, 248)
       font-size:14px;
     }
   }
-
-
+  
   .footer{
     display:flex;
     background:black;
-    margin-top:4%;
+    margin-top:5%;
     
   }
   .footer1{
@@ -399,6 +457,9 @@ color:rgb(245, 244, 248)
    
   }
   @media(max-width: 768px){
+    .footer{
+      display:block;
+    }
     .footer1{
      font-size:18px;
     }
@@ -426,8 +487,7 @@ color:rgb(245, 244, 248)
   }
   .footerpage{
     display:flex;
-    background:rgba(249, 30, 30, 0.89);
-
+    background:rgba(226, 21, 21, 0.89);
   }
   .footerpart{
     flex:6;
@@ -438,6 +498,7 @@ color:rgb(245, 244, 248)
     color:black;
   }
   .social-icons {
+    display:flex;
     flex:1;
     gap: 25px;
     list-style: none;
@@ -453,4 +514,5 @@ color:rgb(245, 244, 248)
   
   .social-icons a:hover {
     color:blue;
+    
   }
