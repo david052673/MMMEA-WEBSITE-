@@ -821,7 +821,7 @@ color:white;
     display:block;
   }
   .footer1{
-   font-size:12px;
+   font-size:18px;
   }
 }
 .footer2{
@@ -876,6 +876,6 @@ color:white;
 }
 @media(max-width:768px;){
   .social-icons {
-    margin-left:2%;
+    margin-left:-2%;
   }
 }
