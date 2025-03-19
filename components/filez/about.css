@@ -438,6 +438,11 @@ nav, .d, .b, .topspace {
     background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
   }
   @media(max-width:768px){
+    .fisrt, .second,.principlea,.principleb,.principlec, .principled, .principlee{
+      font-size:14px;
+    }
+  }
+  @media(max-width:768px){
     .principlea, .principleb, .principlec, .principled, .principlee{
       display:block;
     }
@@ -487,12 +492,7 @@ color:rgb(245, 244, 248)
     flex:2.5;
     
   }
-  @media(max-width:768px){
-    .fisrt, .second,.principlea,.principleb,.principlec, .principled, .principlee{
-      font-size:14px;
-      display:block;
-    }
-  }
+
   
   .footer{
     display:flex;
