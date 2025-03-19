@@ -402,10 +402,13 @@ nav, .d, .b, .topspace {
   background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */}
 @media(max-width:768px){
   .prev, .next{
-    top:114px;
+    top:104px;
     font-size:10px;
   }}
-
+  @media(max-width:768px){
+    .next{
+      margin-right:-8%;
+    }}
 
 
 /*-----moving text*/
@@ -795,7 +798,7 @@ color:white;
 @media(max-width:768px){
   .schedulec{
   line-height:8px;
-  font-size:6px;
+  font-size:4px;
   }
   .
 }
