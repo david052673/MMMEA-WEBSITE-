@@ -874,3 +874,8 @@ color:white;
 .social-icons a:hover {
   color:blue;
 }
+@media(max-width:768px;){
+  .social-icons{
+    margin-left:12%;
+  }
+}
