@@ -325,6 +325,115 @@ nav, .d, .b, .topspace {
       #title{
         color:rgb(29, 36, 133);
       }
-    .ldpic{
-        margin-top:7%;
+      .ldpic{
+        margin-top:10%;
+        display:block;
     }
+    .vc{
+        margin-left:3%;
+        color:rgb(14, 132, 51);
+    }
+
+
+
+    .thinline {
+        text-align: center;
+        position: relative;
+        top: 3%;
+        padding: 20px;
+      }
+      
+      .thinline::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); /* Centers the red line vertically */
+        left: 0;
+      }
+      
+      .thinlinelogo {
+        width: 30px;
+        height: 30px;
+        background: url('files/thinlinelogo.jpg') no-repeat center center;
+        background-size: contain;
+        position: absolute; /* Absolute positioning to align with the line */
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%); /* Centers the diamond on the red line */
+        }
+        .footer{
+          display:flex;
+          background:black;
+          margin-top:26px;
+          
+        }
+        .footer1{
+          flex:1;
+         display:block;
+         font-size:22px;
+         color:white;
+         margin-left:1%;
+         
+        }
+        @media(max-width: 768px){
+          .footer1{
+           font-size:18px;
+          
+        }
+      
+        .footer{
+          display:block;
+        }}
+        .footer2{
+          flex:1;
+         display:block;
+         color:white;
+         
+        }
+        .a12x{
+          text-decoration:none;
+          font-size:22px;
+          color:white;
+        }
+        .a12x:hover{
+          color:red
+        }
+        @media(max-width: 768px){
+          .a12x{
+           font-size:18px;
+           margin-left:2%;
+          }
+        }
+      .footerpage{
+        display:flex;
+        background:rgba(226, 21, 21, 0.89);
+      }
+      .footerpart{
+        flex:6;
+        margin-left:1%;
+      }
+      .footertext{
+        font-size:17px;
+        color:black;
+      }
+      .social-icons {
+        flex:1;
+        gap: 25px;
+        list-style: none;
+        padding-top:1%;
+        margin-left:10%;
+      }
+      
+      .social-icons a {
+        text-decoration: none;
+        color:white;
+        font-size: 24px;
+      }
+      
+      .social-icons a:hover {
+        color:blue;
+      }
