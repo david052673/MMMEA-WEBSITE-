@@ -142,7 +142,7 @@ nav{
       left: -150px;
       width:132%;
       height:297%;
-    padding-top:3px;
+    padding-top:-8px;
      top:-23px;
     }
   
@@ -151,7 +151,7 @@ nav{
     font-size:13px;
     margin-bottom:34px;
   }
-      .popup a:hover{
+      #popup a:hover{
       color:red;
     }
     }
@@ -318,6 +318,13 @@ nav, .d, .b, .topspace {
       text-align: left;
       color:white;
     }}
+    @media(max-width:768px){
+      .b.open a:hover{
+       color:red;
+      }
+    }
+
+
     @media(max-width:768px){
       .imagz{
         height:142px;
