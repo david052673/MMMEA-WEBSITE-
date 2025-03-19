@@ -564,7 +564,11 @@ body {
     .acc{
       flex-direction: column; 
       align-items: stretch; 
-    }}
+    }
+    .acd{
+      padding-right:5%;
+    }
+  }
  li{
   font-size:23px;
 }
