@@ -40,7 +40,7 @@ div{
   }
 .c{
    padding:1%;
-   height:75px;
+   height:65px;
   }
 
 .d{
@@ -262,8 +262,13 @@ nav, .d, .b, .topspace {
   
   @media (max-width: 1920px) {
     .c{
-      height:30px;
+      height:45px;
     }}
+    @media(max-width:768px){
+      .c{
+        height:30px;
+      }
+    }
   @media (max-width: 1920px) {
       .text {
        padding-top:44px;

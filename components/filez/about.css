@@ -283,6 +283,11 @@ nav, .d, .b, .topspace {
         height:30px;
       }
     }
+    @media(max-width:768px){
+      .c{
+        height:30px;
+      }
+    }
 @media(max-width:768px){
   .hamburger{
     margin-top:8px;

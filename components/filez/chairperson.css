@@ -261,11 +261,16 @@ nav, .d, .b, .topspace {
   
   @media (max-width: 1920px) {
     .c{
-      height:30px;
+      height:45px;
     }}
   @media (max-width: 1920px) {
       .text {
        padding-top:44px;
+      }
+    }
+    @media(max-width:768px){
+      .c{
+        height:30px;
       }
     }
 
@@ -351,6 +356,7 @@ nav, .d, .b, .topspace {
       }
       #title{
         color:rgb(29, 36, 133);
+        font-size:28px;
       }
       .ldpic{
         margin-top:10%;

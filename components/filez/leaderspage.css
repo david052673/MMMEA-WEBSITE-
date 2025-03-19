@@ -260,8 +260,13 @@ nav, .d, .b, .topspace {
   
   @media (max-width: 1920px) {
     .c{
-      height:30px;
+      height:45px;
     }}
+    @media(max-width:768px){
+      .c{
+        height:30px;
+      }
+    }
   @media (max-width: 1920px) {
       .text {
        padding-top:44px;
@@ -375,7 +380,7 @@ nav, .d, .b, .topspace {
         margin-bottom:3%;
       }
       .lv{
-   margin-left:33%;
+   margin-left:29%;
       }
     .lv1{
     margin-left:29%;

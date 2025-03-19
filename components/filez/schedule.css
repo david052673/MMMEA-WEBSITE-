@@ -234,8 +234,13 @@ nav, .d, .b, .topspace {
   
   @media (max-width: 1920px) {
     .c {
-    height:30px;
+    height:45px;
     }}
+    @media(max-width:768px){
+      .c{
+        height:30px;
+      }
+    }
     @media (max-width:768px) {
 
       .hamburger{
