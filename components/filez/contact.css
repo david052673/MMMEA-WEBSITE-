@@ -39,7 +39,7 @@ div{
   }
 .c{
    padding:1%;
-   height:65px;
+   height:75px;
   }
 
 .d{
@@ -455,4 +455,10 @@ nav, .d, .b, .topspace {
 
 .social-icons a:hover {
   color:blue;
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
 }
