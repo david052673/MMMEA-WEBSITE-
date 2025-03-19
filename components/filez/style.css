@@ -803,8 +803,12 @@ color:white;
 .footer{
   display:flex;
   background:black;
-  
-  
+     
+} 
+@media(max-width:768px){
+  .footer{
+    display:block;
+  }
 }
 .footer1{
   flex:1;
@@ -839,6 +843,14 @@ color:white;
 .footerpage{
   display:flex;
   background:rgba(226, 21, 21, 0.89);
+}
+@media(max-width:768px){
+  .footer, .footerpage{
+    display:block;}
+    .social-icons{
+      display:flex;
+    }
+  
 }
 .footerpart{
   flex:6;

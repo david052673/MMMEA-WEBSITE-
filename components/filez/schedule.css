@@ -546,7 +546,12 @@ color:white;
 .footer{
   display:flex;
   background:black;
-  margin-top:29px;
+     
+} 
+@media(max-width:768px){
+  .footer{
+    display:block;
+  }
 }
 .footer1{
   flex:1;
@@ -556,14 +561,7 @@ color:white;
  margin-left:1%;
  
 }
-@media(max-width: 768px){
-  .footer{
-    display:block;
-  }
-  .footer1{
-   font-size:18px;
-  }
-}
+
 .footer2{
   flex:1;
  display:block;
@@ -588,6 +586,14 @@ color:white;
 .footerpage{
   display:flex;
   background:rgba(226, 21, 21, 0.89);
+}
+@media(max-width:768px){
+  .footer, .footerpage{
+    display:block;}
+    .social-icons{
+      display:flex;
+    }
+  
 }
 .footerpart{
   flex:6;
