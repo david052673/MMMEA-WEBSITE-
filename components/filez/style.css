@@ -795,13 +795,7 @@ color:white;
   line-height:2px;
   color:blue;
 }
-@media(max-width:768px){
-  .schedulec{
-  line-height:8px;
-  font-size:18px;
-  }
-  .
-}
+
 .footer{
   display:flex;
   background:black;
