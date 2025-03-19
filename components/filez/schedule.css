@@ -621,3 +621,9 @@ color:white;
   color:blue;
 }
 
+@media(max-width:768px){
+  .footer, .footerpage{
+    display:block;}
+    .social-icons{
+      display:flex;
+    }}

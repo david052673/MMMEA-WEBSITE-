@@ -570,5 +570,9 @@ color:rgb(245, 244, 248)
   .social-icons a:hover {
     color:blue;
   }
-  
-  
+  @media(max-width:768px){
+    .footer, .footerpage{
+      display:block;}
+      .social-icons{
+        display:flex;
+      }}

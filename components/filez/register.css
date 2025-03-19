@@ -587,3 +587,9 @@ font-size:29px;
     .social-icons a:hover {
       color:blue;
     }
+    @media(max-width:768px){
+      .footer, .footerpage{
+        display:block;}
+        .social-icons{
+          display:flex;
+        }}
