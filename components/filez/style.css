@@ -553,6 +553,7 @@ body {
     height:353px;
     width:362px;
     object-fit:fill;
+    margin-left:-9px;
   }}
 @media (max-width:768px) {
   .acc {
