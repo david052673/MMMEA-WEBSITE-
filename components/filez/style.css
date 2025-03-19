@@ -616,7 +616,7 @@ body {
 }
 @media (max-width: 768px) {
   .schedulepartimage{
-    margin-left:4%;
+    margin-left:-4%;
    
   }}
 
