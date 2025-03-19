@@ -616,7 +616,7 @@ body {
 }
 @media (max-width: 768px) {
   .schedulepartimage{
-    margin-left:-5%;
+    margin-left:-9%;
    
   }}
 
@@ -624,7 +624,7 @@ body {
   position:relative;
   z-index:2000;
   top:-24%;
-  margin-left:41%;  
+  margin-left:41.5%;  
 }
 @media (max-width: 768px) {
   .readmore{
