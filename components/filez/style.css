@@ -875,7 +875,7 @@ color:white;
   color:blue;
 }
 @media(max-width:768px;){
-  .social-icons{
-    margin-left:12%;
+  .social-icons {
+    margin-left:2%;
   }
 }
