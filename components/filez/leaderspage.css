@@ -388,7 +388,7 @@ nav, .d, .b, .topspace {
      }
      .lv2{
         text-decoration:none;
-        margin-left:33%;
+        margin-left:40%;
      }
      .lv2:hover{
         color:red;
@@ -471,21 +471,37 @@ nav, .d, .b, .topspace {
     color:blue;
      }
 
-
-
      .leader7{
+      display:block;
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+      height:655px;
+      margin-bottom:3%;
+      margin-right:4%;
+      
+    }
+    .lstc2{
+    padding-left:22%;
+    }
+  .lstc22{
+    margin-left:16%;
+    color:blue;
+  }
+
+     .leader8{
         display:block;
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
         height:655px;
         margin-bottom:3%;
+        
       }
       .lcr{
    margin-left:29%;
       }
     .lcr1{
-    margin-left:28%;
+    margin-left:28.5%;
     color:blue;
      }
+  
 
 /*---prevent image download---*/
 img {
@@ -526,6 +542,7 @@ img {
     .footer{
       display:flex;
       background:black;
+      margin-top:2%;
          
     } 
     @media(max-width:768px){

@@ -513,7 +513,7 @@ font-size:29px;
     .footer{
       display:flex;
       background:black;
-         
+      margin-top:3%;   
     } 
     @media(max-width:768px){
       .footer{

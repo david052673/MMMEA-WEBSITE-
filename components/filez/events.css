@@ -482,27 +482,7 @@ nav, .d, .b, .topspace {
     .footer{
       display:flex;
       background:black;
-      margin-top:26px;
-      
-    }
-    .footer1{
-      flex:1;
-     display:block;
-     font-size:22px;
-     color:white;
-     margin-left:1%;
-     
-    }
-    @media(max-width: 768px){
-      .footer1{
-       font-size:18px;
-      
-    }
-
-    .footer{
-      display:flex;
-      background:black;
-         
+      margin-top:3%;   
     } 
     @media(max-width:768px){
       .footer{

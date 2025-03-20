@@ -497,7 +497,7 @@ color:rgb(245, 244, 248)
   .footer{
     display:flex;
     background:black;
-       
+    margin-top:3%;   
   } 
   @media(max-width:768px){
     .footer{
@@ -560,6 +560,7 @@ color:rgb(245, 244, 248)
     list-style: none;
     padding-top:1%;
     margin-left:10%;
+    display:flex;
   }
   
   .social-icons a {
