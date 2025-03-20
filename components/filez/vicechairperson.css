@@ -339,7 +339,16 @@ nav, .d, .b, .topspace {
         background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)278%);
         pointer-events: none; /* Prevent interaction issues */
       }
-
+      @media(max-width:768px){
+        .image-container{
+          margin-top:12px;
+          height:264px;
+        }
+        .cont{
+          margin-top:58px;
+          height:204px;
+        }
+       }
       .vicechairpersonoverlaytext{
         position:relative;
         top:-203px;
@@ -348,8 +357,14 @@ nav, .d, .b, .topspace {
         margin-left:13%;
         font-size:43px;
       }
+      @media(max-width:768px){
+        .vicechairpersonoverlaytext{
+          font-size:22px;
+          margin-top:91px;
+        }
+      }
       .vicechair{
-        margin-top:-4%;
+        margin-top:-78px;
         margin-bottom:5%;
         margin-left:2%;
         
@@ -368,6 +383,11 @@ nav, .d, .b, .topspace {
        cursor:pointer;
        background:rgb(185, 44, 44)
       }
+      @media(max-width:768px){
+        .vicechair{
+          margin-top:-125px;
+        }
+      }
       .lddiv{
         display:flex;
         margin:2%;
@@ -382,7 +402,7 @@ nav, .d, .b, .topspace {
         font-size:28px;
       }
       .ldpic{
-        margin-top:10%;
+        margin-top:23px;
         display:block;
     }
     .vc{
@@ -390,7 +410,14 @@ nav, .d, .b, .topspace {
         color:rgb(14, 132, 51);
     }
 
-
+    @media(max-width:768px){
+      .lddiv{
+        display:block;
+      }
+      .vcmessage{
+        font-size:21px;
+      }
+    }
 
     .thinline {
         text-align: center;
@@ -438,7 +465,12 @@ nav, .d, .b, .topspace {
          color:white;
          margin-left:1%;
          
-        }
+  }
+  @media(max-width:768px){
+    .footer1{
+      font-size:18px;
+    }
+  }
         
         .footer2{
           flex:1;
@@ -498,9 +530,13 @@ nav, .d, .b, .topspace {
         .social-icons a:hover {
           color:blue;
         }
-        @media(max-width:768px){
-          .footer, .footerpage{
-            display:block;}
-            .social-icons{
-              display:flex;
-            }}
+    @media(max-width:768px){
+      .footer, .footerpage{
+         display:block;}
+        .social-icons{
+           display:flex;
+   }}
+   @media(max-width:768px){
+    .social-icons{
+      margin-left:60%;
+  }}

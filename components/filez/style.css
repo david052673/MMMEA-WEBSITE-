@@ -797,7 +797,8 @@ color:white;
 }
 @media(max-width:768px){
   .schedulec{
-    font-size:23px;
+    font-size:13px;
+    height:12px;
   }
 }
 .footer{
@@ -818,7 +819,11 @@ color:white;
  margin-left:1%;
  
 }
-
+@media(max-width:768px){
+  .footer1{
+    font-size:18px;
+  }
+}
 .footer2{
   flex:1;
  display:block;
@@ -878,5 +883,10 @@ color:white;
   color:blue;
 }
 
+@media(max-width:768px){
+.social-icons{
+  margin-left:60%;
+}
+    }
 
 

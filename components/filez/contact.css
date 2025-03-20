@@ -384,7 +384,29 @@ nav, .d, .b, .topspace {
 .ig, .facebook, .x{
   text-decoration:none;
 }
-
+@media(max-width:1268px){
+  .contactbody{
+    display:block;
+    width:100%;
+    margin-left:2px; 
+  }
+  .contactbody2{
+    display:block;
+    width:100%;
+    margin-left:2px;
+  }
+  .contactbody3{
+    display:block;
+    width:100%;
+    margin-left:2px;
+  }
+  .contacttext2{
+    font-size:18px;
+  }
+  .contacttext{
+    font-size:18px;
+  }
+}
 
 
 .thinline {
@@ -434,7 +456,11 @@ nav, .d, .b, .topspace {
    margin-left:1%;
    
   }
-  
+  @media(max-width:768px){
+    .footer1{
+      font-size:18px;
+    }
+  }
   .footer2{
     flex:1;
    display:block;
@@ -498,4 +524,8 @@ nav, .d, .b, .topspace {
       display:block;}
       .social-icons{
         display:flex;
+      }}
+   @media(max-width:768px){
+    .social-icons{
+      margin-left:60%;
       }}

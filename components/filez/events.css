@@ -158,6 +158,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+    margin-left:2px;
     }
 
   .topspace{
@@ -323,7 +324,7 @@ nav, .d, .b, .topspace {
       @media (max-width: 768px) {
         .cont {
           object-fit:fill;
-         margin-top:63px;
+         margin-top:50px;
          width:524px;
          height:149px;
         }}
@@ -334,6 +335,12 @@ nav, .d, .b, .topspace {
     color:white;
     margin-bottom:4%;
     margin-left:5%;
+    font-size:32px;
+   }
+   @media(max-width:768px){
+    .textoverlay{
+      font-size:27px;
+    }
    }
 
    .eventspagetext{
@@ -343,26 +350,55 @@ nav, .d, .b, .topspace {
    .event0{
     color:rgb(169, 16, 16)
    }
+   @media(max-width:768px){
+    .event0{
+      margin-top:54px;
+      font-size:26px;
+    }
+   }
    .event1{
      flex:9;
      margin-left:2%;
      font-size:20px;
-     color:rgb(23, 31, 26);
-     
+     color:rgb(23, 31, 26);     
    }
+
    .event2{
    flex:2;
    }
+   @media(max-width:768px){
+    .event1{
+      font-size:18px;
+    }
+   }
+  
+   @media(max-width:768px){
+    .eventspagetext{
+      display:block;
+    }
+   }
+  
    .title1{
     font-family: Comic Sans MS;
     color:rgb(7, 193, 29);
     margin-left:34%;
     font-size
    }
+   @media(max-width:768px){
+    .title1{
+      margin-left:6px;
+    }
+   }
    .sportstext{
     font-size:33px;
     margin-right:93%;
     line-height:12px;
+   }
+   @media(max-width:768px){
+    .sportstext{
+      line-height:31px;
+
+    }
    }
    .sportpics{
     diplay:flex;
@@ -382,6 +418,14 @@ nav, .d, .b, .topspace {
     flex:1;
     margin:4px;
    }
+  @media(max-width:768px){
+    .sportpics{
+      display:block;
+    }
+    .sportpic3,.sportpic2,.sportpic1{
+      margin-bottom:15px;
+    }
+  }
    .outreachtext{
     padding-top:2%;
     font-size:29px;
@@ -398,6 +442,7 @@ nav, .d, .b, .topspace {
    .outreach{
     margin-right:2%;
    }
+
    .outreachtext2{
     flex:1;
     font-size:32PX;
@@ -407,6 +452,11 @@ nav, .d, .b, .topspace {
    }
    .outreachtpic{
     flex:6;
+   }
+   @media(max-width:768px){
+    .outreach{
+      display:block;
+    }
    }
    .title2{
     font-family: Comic Sans MS;
@@ -438,6 +488,14 @@ nav, .d, .b, .topspace {
     flex:1;
     margin:4px;
    }
+   @media(max-width:768px){
+    .hikingpics{
+      display:block;
+    }
+    .hikingpic1,.hikingpic2,.hikingpic3{
+      margin-bottom:15px;
+    }
+   }
    .peering{
     background:rgb(195, 194, 198)
    }
@@ -448,7 +506,17 @@ nav, .d, .b, .topspace {
     margin-left:12px;
     font-size:26px;
    }
-
+   @media(max-width:768px){
+    .peering{
+      display:block;
+    }
+   }
+   @media(max-width:768px){
+    .peertext{
+      font-size:24px;
+    }
+   }
+ 
    
    .thinline {
     text-align: center;
@@ -497,7 +565,11 @@ nav, .d, .b, .topspace {
      margin-left:1%;
      
     }
-    
+    @media(max-width:768px){
+      .footer1{
+        font-size:18px;
+      }
+    }
     .footer2{
       flex:1;
      display:block;
@@ -556,9 +628,14 @@ nav, .d, .b, .topspace {
     .social-icons a:hover {
       color:blue;
     }
-    @media(max-width:768px){
+@media(max-width:768px){
       .footer, .footerpage{
         display:block;}
         .social-icons{
           display:flex;
         }}
+    @media(max-width:768px){
+          .social-icons{
+            margin-left:60%;
+  }}
+

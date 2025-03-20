@@ -322,7 +322,7 @@ nav, .d, .b, .topspace {
       .cont {
         display: block;
         width: 100%;
-        height: auto;
+        height: 304px;
         margin-top:83px; /* Ensures your custom positioning */
       }
       
@@ -336,6 +336,16 @@ nav, .d, .b, .topspace {
         background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)278%);
         pointer-events: none; /* Prevent interaction issues */
       }
+   @media(max-width:768px){
+    .image-container{
+      margin-top:12px;
+      height:264px;
+    }
+    .cont{
+      margin-top:58px;
+      height:204px;
+    }
+   }
 
       .chairpersonoverlaytext{
         position:relative;
@@ -345,8 +355,14 @@ nav, .d, .b, .topspace {
         margin-left:13%;
         font-size:43px;
       }
+      @media(max-width:768px){
+        .chairpersonoverlaytext{
+          font-size:22px;
+          margin-top:91px;
+        }
+      }
       .chair{
-        margin-top:-4%;
+        margin-top:-78px;
         margin-bottom:5%;
         margin-left:2%;
         
@@ -379,13 +395,24 @@ nav, .d, .b, .topspace {
         font-size:28px;
       }
       .ldpic{
-        margin-top:10%;
+        margin-top:23px;
         display:block;
     }
     .ch{
         margin-left:3%;
         color:rgb(14, 132, 51);
     }
+  @media(max-width:768px){
+    .lddiv{
+      display:block;
+    }
+    .chairmessage{
+      font-size:21px;
+    }
+    .chair{
+      margin-top:-124px;
+    }
+  }
 
 
     .thinline {
@@ -434,7 +461,12 @@ nav, .d, .b, .topspace {
          color:white;
          margin-left:1%;
          
-        }
+    }
+    @media(max-width:768px){
+      .footer1{
+        font-size:18px;
+      }
+    }
         
         .footer2{
           flex:1;
@@ -500,3 +532,7 @@ nav, .d, .b, .topspace {
             .social-icons{
               display:flex;
             }}
+  @media(max-width:768px){
+        .social-icons{
+          margin-left:60%;
+      }}
