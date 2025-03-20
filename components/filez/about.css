@@ -308,7 +308,7 @@ nav, .d, .b, .topspace {
       padding: 10px;
       box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
       z-index: 7000;
-      
+      transition: all 0.3s ease;
     }    
     .b.open h3 {
       margin: 0;

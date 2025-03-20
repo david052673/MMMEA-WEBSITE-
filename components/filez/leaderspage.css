@@ -492,16 +492,31 @@ nav, .d, .b, .topspace {
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
         height:655px;
         margin-bottom:3%;
+        margin-right:4%;
         
       }
-      .lcr{
-   margin-left:29%;
+      .ldc{
+   margin-left:34%;
       }
-    .lcr1{
-    margin-left:28.5%;
+    .ldc1{
+    margin-left:23.5%;
     color:blue;
      }
-  
+
+     .leader9{
+      display:block;
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+      height:655px;
+      margin-bottom:3%;
+      
+    }
+    .lcr{
+ margin-left:29%;
+    }
+  .lcr1{
+  margin-left:28.5%;
+  color:blue;
+   }
 
 /*---prevent image download---*/
 img {

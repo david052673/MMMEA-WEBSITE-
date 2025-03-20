@@ -348,6 +348,26 @@ nav, .d, .b, .topspace {
         margin-left:13%;
         font-size:43px;
       }
+      .vicechair{
+        margin-top:-4%;
+        margin-bottom:5%;
+        margin-left:2%;
+        
+    
+      }
+      .buttonvice{
+        padding:7px;
+        padding-right:14px;
+        padding-left:14px;
+        border-radius:100%;
+        font-size:19px;
+        background:grey;
+        color:white;
+      }
+      .buttonvice:hover{
+       cursor:pointer;
+       background:rgb(185, 44, 44)
+      }
       .lddiv{
         display:flex;
         margin:2%;
