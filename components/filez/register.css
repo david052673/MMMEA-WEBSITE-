@@ -262,8 +262,7 @@ nav, .d, .b, .topspace {
     .c {
     height:45px;
     }
-    
-      .hamburger{
+    .hamburger{
         margin-top:-126px;
         font-size:22px;
         margin-right:47px;
@@ -635,4 +634,8 @@ font-size:29px;
   @media(max-width:768px){
     .social-icons{
       margin-left:60%;
-  }}
+  }
+  .email{
+    font-size:12px;
+  }
+}

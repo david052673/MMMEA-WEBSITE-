@@ -572,4 +572,8 @@ font-size:29px;
   @media(max-width:768px){
     .social-icons{
       margin-left:60%;
-  }}
+  }
+  .email{
+    font-size:12px;
+  }
+}

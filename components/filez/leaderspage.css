@@ -601,45 +601,16 @@ color:blue;
     }
     .leader2{
       width:404px;
+      margin-bottom:12px;
 
     }
-     .lv,.lv1{
-      margin-right:32%;
-     }
-     .lv2{
-      margin-right:43%;
-     }
+  .lc,.lc1,.lc2,.lv,.lv1,.lv2,.ls,.ls1,.ls2,.lvs,.lvs1,.lo,.lo1,.lo2,.lvo,.lvo1,
+  .lcr,.lcr1,.lcr2,.lcr22,.lstc1,.lstc11,.lstc2,.lstc22,.lstc3,.lstc33,.ldc,.ldc1{
+    margin-left:2px;
+  }
+  
+  }
 
-     .ls,{
-      margin-right:25%;
-     }
-     .ls1{
-      margin-right:41%;
-     }
-     .ls2{
-      margin-right:-157%;
-     }     .lv,.lv1{
-      margin-left:32%;
-     }
-     .lv2{
-      margin-left:43%;
-     }     .lv,.lv1{
-      margin-left:32%;
-     }
-     .lv2{
-      margin-left:43%;
-     }     .lv,.lv1{
-      margin-left:32%;
-     }
-     .lv2{
-      margin-left:43%;
-     }     .lv,.lv1{
-      margin-left:32%;
-     }
-     .lv2{
-      margin-left:43%;
-     }
-   }
 
 /*---prevent image download---*/
 img {
@@ -768,4 +739,8 @@ img {
   @media(max-width:768px){
     .social-icons{
       margin-left:60%;
-  }}
+  }
+  .email{
+    font-size:12px;
+  }
+}

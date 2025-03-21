@@ -407,7 +407,14 @@ nav, .d, .b, .topspace {
     font-size:18px;
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 
+}
 
 .thinline {
   text-align: center;
@@ -528,4 +535,8 @@ nav, .d, .b, .topspace {
    @media(max-width:768px){
     .social-icons{
       margin-left:60%;
-      }}
+      }
+      .email{
+        font-size:12px;
+      }
+    }
