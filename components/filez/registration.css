@@ -435,11 +435,14 @@ font-size:29px;
     margin-top:68px;
     
   }
-  .membershipform{
-    width:460px;
+  .membershipform,{
+    width:265px;
+    height:197px;
+    
   }
   .overlay2{
-    width:470px;
+    width:268px;
+    height:197px;
   }
 }
 
@@ -474,7 +477,7 @@ font-size:29px;
   }
   @media(max-width:768px){
     .thinline{
-      top:23%;
+      top:13%;
     }
   }
   .footer{

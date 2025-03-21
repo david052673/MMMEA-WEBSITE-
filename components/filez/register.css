@@ -431,7 +431,7 @@ nav, .d, .b, .topspace {
   }
   @media(max-width:768px){
     .registerbutton{
-      margin-left:116px;
+      margin-left:96px;
       margin-top:32px;
     }
   }
@@ -510,12 +510,13 @@ font-size:29px;
     margin-left:-652px;
     
   }
-  .membershipform{
-    width:260px;
+  .membershipform,{
+    width:262px;
     height:197px;
   }
   .overlay2{
-    width:470px;
+    width:267px;
+    height:197px;
   }
 }
 
