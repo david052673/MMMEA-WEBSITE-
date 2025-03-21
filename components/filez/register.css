@@ -516,8 +516,8 @@ font-size:29px;
     
   }
   .overlay2{
-    width:352px;
-    height:197px;
+    width:355px;
+    height:202px;
   }
 }
 
@@ -558,7 +558,7 @@ font-size:29px;
     @media(max-width:768px){
       .footer{
         display:block;
-        margin-top:33px;
+        margin-top:-13px;
       }
     }
     .footer1{
