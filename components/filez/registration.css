@@ -338,6 +338,32 @@ nav, .d, .b, .topspace {
       font-size:22px;
       margin-right:10px;
         
+    }  }
+
+    .vicechair{
+      margin-top:-78px;
+      margin-bottom:5%;
+      margin-left:2%;
+      
+  
+    }    
+    
+  .buttonvice{
+    padding:7px;
+    padding-right:14px;
+    padding-left:14px;
+    border-radius:100%;
+    font-size:19px;
+    background:grey;
+    color:white;
+  }
+  .buttonvice:hover{
+   cursor:pointer;
+   background:rgb(185, 44, 44)
+  }
+  @media(max-width:768px){
+    .vicechair{
+      margin-top:-125px;
     }
   }
   .registrationbody{
@@ -435,7 +461,7 @@ font-size:29px;
     margin-top:68px;
     
   }
-  .membershipform,{
+  .membershipform{
     width:265px;
     height:197px;
     
@@ -477,7 +503,7 @@ font-size:29px;
   }
   @media(max-width:768px){
     .thinline{
-      top:13%;
+      top:23%;
     }
   }
   .footer{
