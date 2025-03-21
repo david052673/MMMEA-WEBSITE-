@@ -608,7 +608,12 @@ color:blue;
   .lcr,.lcr1,.lcr2,.lcr22,.lstc1,.lstc11,.lstc2,.lstc22,.lstc3,.lstc33,.ldc,.ldc1{
     margin-left:2px;
   }
-  
+  .lcr{
+    margin-left:2px;
+  }
+  .lo, .lcr22{
+    font-size:17px;
+  }
   }
 
 
