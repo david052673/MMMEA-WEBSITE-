@@ -516,7 +516,7 @@ font-size:29px;
     
   }
   .overlay2{
-    width:267px;
+    width:352px;
     height:197px;
   }
 }
@@ -524,7 +524,7 @@ font-size:29px;
   .thinline {
     text-align: center;
     position: relative;
-    top: -26%;
+    top: -20%;
     padding: 20px;
   }
   
@@ -553,7 +553,7 @@ font-size:29px;
     .footer{
       display:flex;
       background:black;
-      margin-top:-37%;   
+      margin-top:-87%;   
     } 
     @media(max-width:768px){
       .footer{

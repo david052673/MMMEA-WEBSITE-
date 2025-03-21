@@ -413,11 +413,12 @@ nav, .d, .b, .topspace {
 }
 @media(max-width:768px){
   .schedulepic{
-    width:325px;
+    width:345px;
     height:206px;
   }
   .overlay2{
-    width:465px;
+    width:345px;
+    height:206px;
   }
 }
 .overlay2{
@@ -457,8 +458,8 @@ nav, .d, .b, .topspace {
 }
 @media(max-width:768px){
   .overlay2{
-    width:475px;
-    height:331px;
+    width:348px;
+    height:209px;
   }
   .conclusion{
     margin-top:-74px;
