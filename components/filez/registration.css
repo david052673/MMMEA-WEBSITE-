@@ -341,7 +341,7 @@ nav, .d, .b, .topspace {
     }  }
 
     .vicechair{
-      margin-top:-78px;
+      margin-top:178px;
       margin-bottom:5%;
       margin-left:2%;
       
@@ -367,7 +367,7 @@ nav, .d, .b, .topspace {
     }
   }
   .registrationbody{
-    margin-top:-60px;
+   
     display:block;
   }
   .registrationtext{
@@ -380,6 +380,7 @@ nav, .d, .b, .topspace {
   .approval{
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)158%);
     height:371px;
+    display:block;
   }
   .approvaltext{
     color:white;

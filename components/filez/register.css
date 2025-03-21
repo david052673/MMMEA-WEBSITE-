@@ -511,8 +511,9 @@ font-size:29px;
     
   }
   .membershipform{
-    width:262px;
+    width:362px;
     height:197px;
+    
   }
   .overlay2{
     width:267px;
@@ -523,7 +524,7 @@ font-size:29px;
   .thinline {
     text-align: center;
     position: relative;
-    top: 5%;
+    top: -11%;
     padding: 20px;
   }
   
