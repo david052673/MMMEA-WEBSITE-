@@ -416,29 +416,29 @@ nav, .d, .b, .topspace {
   .principlea{
  display:flex;
  margin-left:2%;
- background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
+ background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0)179%);
   }
   .principleb{
     display:flex;
     margin-left:2%;
-    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
+    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0)179%);
   }
 
   .principlec{
     display:flex;
     margin-left:2%;
     background:green;
-    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
+    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0)179%);
   }
   .principled{
     display:flex;
     margin-left:2%;
-    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
+    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0)179%);
   }
   .principlee{
     display:flex;
     margin-left:2%;
-    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0));
+    background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0)179%);
   }
   @media(max-width:768px){
     .fisrt, .second,.principlea,.principleb,.principlec, .principled, .principlee{
@@ -592,6 +592,6 @@ color:rgb(245, 244, 248)
           
       }
       .email{
-        font-size:12px;
+        font-size:14px;
       }
     }
