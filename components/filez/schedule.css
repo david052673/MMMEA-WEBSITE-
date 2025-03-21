@@ -131,6 +131,7 @@ div{
   @media (max-width: 768px) {
     .popup a{
      color:black;
+     font-size:16px;
    }
    .popup{
      background-color:rgb(15, 15, 147);
@@ -248,7 +249,7 @@ nav, .d, .b, .topspace {
     top:2px;
     margin-top:-19px;
     font-size:22px;
-    margin-right:71px;
+    margin-right:21px;
       
   
       }
@@ -318,7 +319,7 @@ nav, .d, .b, .topspace {
         .cont {
           object-fit:fill;
          margin-top:63px;
-         width:524px;
+         width:324px;
          height:149px;
         }}
 
@@ -412,8 +413,8 @@ nav, .d, .b, .topspace {
 }
 @media(max-width:768px){
   .schedulepic{
-    width:465px;
-    height:326px;
+    width:325px;
+    height:206px;
   }
   .overlay2{
     width:465px;
@@ -476,7 +477,7 @@ nav, .d, .b, .topspace {
 }
 @media(max-width:768px){
   .button4{
-    margin-left:117px;
+    margin-left:17px;
   }
 }
 
