@@ -511,7 +511,7 @@ font-size:29px;
     
   }
   .membershipform{
-    width:362px;
+    width:352px;
     height:197px;
     
   }
@@ -524,7 +524,7 @@ font-size:29px;
   .thinline {
     text-align: center;
     position: relative;
-    top: -11%;
+    top: -26%;
     padding: 20px;
   }
   
@@ -553,7 +553,7 @@ font-size:29px;
     .footer{
       display:flex;
       background:black;
-      margin-top:3%;   
+      margin-top:-37%;   
     } 
     @media(max-width:768px){
       .footer{
