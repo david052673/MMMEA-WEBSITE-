@@ -222,15 +222,7 @@ div{
       display: flex;
   }
 }
-@media (max-width:768px) {
 
-  .hamburger{
-    margin-top:-122px;
-    font-size:22px;
-    margin-right:10px;
-      
-  }
-}
 body {
   margin: 0;
   padding: 0;
@@ -264,16 +256,18 @@ nav, .d, .b, .topspace {
     flex-direction: column;
   }}
   
-  @media (max-width: 768px) {
+  @media (max-width:768px) {
     .c {
     height:45px;
     }
-    .hamburger{
-      margin-top:22px;
-      font-size:22px;
-      margin-right:10px;
-        
-    }
+    
+      .hamburger{
+        margin-top:-96px;
+        font-size:22px;
+        margin-right:51px;
+          
+      } 
+    
   }
     @media (max-width: 1920px) {
       body {

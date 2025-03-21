@@ -242,17 +242,17 @@ nav, .d, .b, .topspace {
     
         font-size:6px;
         flex-direction: column;
-      }
+      }}
       @media(max-width:768px){
         .c{
           height:30px;
         }
-      }
+      
       .hamburger{
         top:12%;
         margin-top:6px;
         font-size:22px;
-        margin-right:21px;
+        margin-right:67px;
           
       }}
       

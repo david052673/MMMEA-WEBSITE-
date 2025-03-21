@@ -213,12 +213,6 @@ html, body {
   }}
 @media (max-width:768px) {
 
-  .hamburger{
-    margin-top:-7px;
-    font-size:22px;
-    margin-right:10px;
-      
-  }
   .a{
     font-size:8px;
   }
@@ -255,6 +249,18 @@ nav, .d, .b, .topspace {
     @media(max-width:768px){
       .c{
         height:30px;
+      }}
+      @media(max-width:768px){
+        .c{
+          height:30px;
+        }
+      
+      .hamburger{
+        top:12%;
+        margin-top:-13px;
+        font-size:22px;
+        margin-right:67px;
+          
       }
     }
 
