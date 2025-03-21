@@ -370,6 +370,8 @@ nav, .d, .b, .topspace {
   @media(max-width:768px){
     .approval{
       display:block;
+      height:478px;
+      font-size:18px;
     }
   }
   .membershipform{
@@ -469,6 +471,11 @@ font-size:29px;
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%); /* Centers the diamond on the red line */
+  }
+  @media(max-width:768px){
+    .thinline{
+      top:23%;
+    }
   }
   .footer{
     display:flex;

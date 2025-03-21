@@ -216,7 +216,7 @@ html, body {
 @media (max-width:768px) {
 
   .a{
-    font-size:8px;
+    font-size:6px;
   }
 }
   
@@ -254,7 +254,7 @@ nav, .d, .b, .topspace {
         top:12%;
         margin-top:-13px;
         font-size:22px;
-        margin-right:67px;
+        margin-right:21px;
           
       }
     }
@@ -434,8 +434,8 @@ nav, .d, .b, .topspace {
       display:block;
     }
     .sportpic3,.sportpic2,.sportpic1{
-      margin-bottom:15px;
-      width:324px;
+      margin-bottom:25px;
+      width:274px;
       height:305px;
     }
   }
@@ -445,6 +445,7 @@ nav, .d, .b, .topspace {
     margin-right:12%;
     color:white;
     padding-bottom:7%;
+    margin-top:3px;
    
         
    }

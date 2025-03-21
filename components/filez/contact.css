@@ -390,6 +390,7 @@ nav, .d, .b, .topspace {
     display:block;
     width:100%;
     font-size:14px; 
+  
   }
   .contactbody2{
     display:block;
@@ -402,10 +403,10 @@ nav, .d, .b, .topspace {
     margin-left:2px;
   }
   .contacttext2{
-    font-size:18px;
+    font-size:14px;
   }
   .contacttext{
-    font-size:18px;
+    font-size:14px;
   }
 }
 body {

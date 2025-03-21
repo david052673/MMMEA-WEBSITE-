@@ -569,7 +569,7 @@ body {
       align-items: stretch; 
     }
     .acd{
-      padding-right:-1%;
+      margin-right:6px;
     }
   }
  li{
