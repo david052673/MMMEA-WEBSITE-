@@ -394,7 +394,7 @@ nav, .d, .b, .topspace {
     
   }
   @media(max-width:768px){
-    .approval{
+    .approvaltext{
       display:block;
       height:478px;
       font-size:18px;
@@ -462,13 +462,13 @@ font-size:29px;
     
   }
   .membershipform{
-    width:265px;
-    height:197px;
+    width:355px;
+    height:297px;
     
   }
   .overlay2{
-    width:268px;
-    height:197px;
+    width:358px;
+    height:307px;
   }
 }
 
@@ -503,7 +503,7 @@ font-size:29px;
   }
   @media(max-width:768px){
     .thinline{
-      top:23%;
+      top:12%;
     }
   }
   .footer{
