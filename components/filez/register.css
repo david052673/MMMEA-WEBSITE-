@@ -525,7 +525,7 @@ font-size:29px;
   .thinline {
     text-align: center;
     position: relative;
-    top: -20%;
+    top: 7%;
     padding: 20px;
   }
   
@@ -555,7 +555,7 @@ font-size:29px;
     .footer{
       display:flex;
       background:black;
-      margin-top:-287%;   
+      margin-top:5%;   
     } 
     @media(max-width:768px){
       .footer{

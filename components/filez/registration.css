@@ -341,9 +341,9 @@ nav, .d, .b, .topspace {
     }  }
 
     .vicechair{
-      margin-top:178px;
-      margin-bottom:5%;
-      margin-left:2%;
+      margin-top:-5px;
+      margin-bottom:2%;
+      margin-left:1%;
       
   
     }    
@@ -380,7 +380,7 @@ nav, .d, .b, .topspace {
   .approval{
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)158%);
     height:371px;
-    display:block;
+    display:flex;
   }
   .approvaltext{
     color:white;
