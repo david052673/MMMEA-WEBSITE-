@@ -396,9 +396,11 @@ nav, .d, .b, .topspace {
   }
   @media(max-width:768px){
     .approvaltext{
-      display:block;
       height:478px;
       font-size:20px;
+    }
+    .approval{
+      display:block;
     }
   }
   .membershipform{
