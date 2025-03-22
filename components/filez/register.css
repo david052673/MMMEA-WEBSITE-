@@ -551,6 +551,7 @@ font-size:29px;
     left:50%;
     transform: translate(-50%, -50%); /* Centers the diamond on the red line */
     }
+    
     .footer{
       display:flex;
       background:black;
@@ -560,6 +561,9 @@ font-size:29px;
       .footer{
         display:block;
         margin-top:-13px;
+      }
+      .thinline{
+        margin-top:3px;
       }
     }
     .footer1{

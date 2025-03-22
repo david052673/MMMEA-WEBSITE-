@@ -505,6 +505,7 @@ font-size:29px;
   @media(max-width:768px){
     .thinline{
       top:10%;
+      margin-bottom:6px;
     }
   }
   .footer{
@@ -512,6 +513,7 @@ font-size:29px;
     background:black;
     margin-top:3%;  
   } 
+  
 
   .footer1{
     flex:1;
@@ -522,9 +524,13 @@ font-size:29px;
    
   }
   @media(max-width:768px){
+    .footer{
+      margin-top:1px;
+    }
     .footer1{
       font-size:18px;
     }
+    
   }
   
   .footer2{
