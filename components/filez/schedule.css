@@ -462,7 +462,7 @@ nav, .d, .b, .topspace {
     height:209px;
   }
   .conclusion{
-    margin-top:-89px;
+    margin-top:-109px;
   }
 }
 .button4{
@@ -478,7 +478,7 @@ nav, .d, .b, .topspace {
 }
 @media(max-width:768px){
   .button4{
-    margin-left:35px;
+    margin-left:39px;
   }
 }
 
