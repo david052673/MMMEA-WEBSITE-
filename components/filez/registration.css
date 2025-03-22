@@ -363,7 +363,7 @@ nav, .d, .b, .topspace {
   }
   @media(max-width:768px){
     .vicechair{
-      margin-top:-8px;
+      margin-top:-11px;
     }
   }
   .registrationbody{
@@ -387,18 +387,18 @@ nav, .d, .b, .topspace {
   }
   .approvalschedulelink{
     text-decoration:none;
-    color:rgb(21, 41, 167);
+    color:rgb(177, 10, 16);
 
   }
   .approvalschedulelink:hover{
-  color:red;
+  color:rgb(21, 41, 167);
     
   }
   @media(max-width:768px){
     .approvaltext{
       display:block;
       height:478px;
-      font-size:19px;
+      font-size:20px;
     }
   }
   .membershipform{
@@ -460,7 +460,7 @@ font-size:29px;
   .membershipform, .overlay2{
     margin-left:2px;
     margin-right:2px;
-    margin-top:-74px;
+    margin-top:-78px;
     
   }
   .membershipform{
@@ -526,7 +526,7 @@ font-size:29px;
   }
   @media(max-width:768px){
     .footer{
-      margin-top:-12px;
+      margin-top:-22px;
     }
     .footer1{
       font-size:18px;
