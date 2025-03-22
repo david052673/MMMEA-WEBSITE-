@@ -396,6 +396,7 @@ nav, .d, .b, .topspace {
    @media(max-width:768px){
     .title1{
       margin-left:6px;
+      margin-top:12%;
     }
    }
    .sportstext{
@@ -435,7 +436,7 @@ nav, .d, .b, .topspace {
     }
     .sportpic3,.sportpic2,.sportpic1{
       margin-bottom:25px;
-      width:274px;
+      width:254px;
       height:305px;
     }
   }
@@ -524,12 +525,13 @@ nav, .d, .b, .topspace {
     .peering{
       display:block;
     }
-    .peeringpic, .hikingpic3,.hikingpic2, .hikingpic1, .outreachpic, .sportpic3,.sportpic2,.sportpic1, .event2{
+    .peeringpic, .hikingpic3,.hikingpic2, .hikingpic1, .outreachpic,.sportpic2,.sportpic1, .event2{
       width:376px;
-      height:289px;
+      
      }
      ..sportpic3{
       width:304px;
+      height:289px;
      }
    }
    @media(max-width:768px){
