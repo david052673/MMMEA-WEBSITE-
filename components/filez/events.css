@@ -524,6 +524,9 @@ nav, .d, .b, .topspace {
     .peering{
       display:block;
     }
+    .peeringpic, .hikingpic3,.hikingpic2, .hikingpic1, .outreachpic, .sportpic3,.sportpic2,.sportpic1, .event2{
+      width:376px;
+     }
    }
    @media(max-width:768px){
     .peertext{
