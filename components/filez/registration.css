@@ -459,7 +459,7 @@ font-size:29px;
 @media(max-width:768px){
   .membershipform, .overlay2{
     margin-left:9px;
-    margin-top:-38px;
+    margin-top:-68px;
     
   }
   .membershipform{
@@ -504,7 +504,7 @@ font-size:29px;
   }
   @media(max-width:768px){
     .thinline{
-      top:10%;
+      top:-8%;
       margin-bottom:6px;
     }
   }
