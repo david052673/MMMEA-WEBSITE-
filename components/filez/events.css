@@ -518,9 +518,13 @@ nav, .d, .b, .topspace {
     border-radius: 40px;
    }
    .peeringpic{
-    width:354px;
-    height:289px;
-   }   
+    width:349px;
+    height:279px;
+   }  
+   .outreachpic{
+    width:349px;
+    height:279px;
+   } 
    .peertext{
     margin-left:12px;
     font-size:26px;
