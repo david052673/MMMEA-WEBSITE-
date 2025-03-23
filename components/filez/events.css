@@ -532,14 +532,15 @@ nav, .d, .b, .topspace {
       width:304px;
       height:289px;
      }
-     .peeringpic, .outreachpic{
-      height:356px;
-     }
+
    }
    @media(max-width:768px){
     .peertext{
-      font-size:24px;
+      font-size:22px;
     }
+    .peeringpic, .outreachpic{
+      height:356px;
+     }
    }
  
    
