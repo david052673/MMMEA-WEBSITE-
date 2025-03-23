@@ -536,11 +536,10 @@ nav, .d, .b, .topspace {
    }
    @media(max-width:768px){
     .peertext{
-      font-size:22px;
+      font-size:24px;
     }
-    .peeringpic, .outreachpic{
+         .peeringpic, .outreachpic{
       height:356px;
-      width:304px;
      }
    }
  
