@@ -524,7 +524,6 @@ nav, .d, .b, .topspace {
    @media(max-width:768px){
     .peering{
       display:block;
-      height:356px;
     }
     .peeringpic, .hikingpic3,.hikingpic2, .hikingpic1, .outreachpic,.sportpic2,.sportpic1, .event2{
       width:376px;      
@@ -541,6 +540,7 @@ nav, .d, .b, .topspace {
     }
     .peeringpic, .outreachpic{
       height:356px;
+      width:304px;
      }
    }
  
