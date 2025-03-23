@@ -526,12 +526,14 @@ nav, .d, .b, .topspace {
       display:block;
     }
     .peeringpic, .hikingpic3,.hikingpic2, .hikingpic1, .outreachpic,.sportpic2,.sportpic1, .event2{
-      width:376px;
-      
+      width:376px;      
      }
-     ..sportpic3{
+     .sportpic3{
       width:304px;
       height:289px;
+     }
+     .peeringpic, .outreachpic{
+      height:356px;
      }
    }
    @media(max-width:768px){
