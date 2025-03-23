@@ -517,6 +517,10 @@ nav, .d, .b, .topspace {
    .peeringpic, .hikingpic3,.hikingpic2, .hikingpic1, .outreachpic, .sportpic3,.sportpic2,.sportpic1, .event2{
     border-radius: 40px;
    }
+   .peeringpic{
+    width:354px;
+    height:289px;
+   }   
    .peertext{
     margin-left:12px;
     font-size:26px;
