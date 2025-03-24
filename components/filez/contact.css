@@ -400,16 +400,7 @@ nav, .d, .b, .topspace {
     padding-left:0%;
   
   }}
-  @media (min-width:769px)(max-width:1268px){
-    .contactbody{
-      display:block;
-      width:100%;
-      font-size:14px; 
-      margin-left:-22px;
-      padding-left:0%;
-      margin-top:10px;
-    
-    }}
+
   
   .contactbody2{
     display:block;

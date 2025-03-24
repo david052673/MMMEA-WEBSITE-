@@ -452,7 +452,7 @@ body {
 }
 @media(max-width:1209px){
   .blockleft, .blockright,.moving-container::after{
-    margin-top:-152px;
+    margin-top:-132px;
   }
 }
 
