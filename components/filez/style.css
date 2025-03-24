@@ -457,7 +457,7 @@ body {
 }
 @media (max-width:768px){
   .blockleft, .blockright,.moving-container::after{
-    margin-top:-182px;
+    margin-top:-272px;
   }
 }
 .moving-text span {
