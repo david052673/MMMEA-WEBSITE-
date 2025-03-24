@@ -367,7 +367,7 @@ nav, .d, .b, .topspace {
     .sacj{
       height:165px;
     }}
-    @media (min-width: 768px) and (max-width: 1209px) {
+    @media (min-width: 769px) and (max-width: 1209px) {
       .sacj{
        padding-top:7px;
        width:100%;
@@ -450,12 +450,16 @@ body {
   margin-top:-16px;
 
 }
-@media(max-width:1209px){
+@media (min-width: 769px) and (max-width:1209px){
   .blockleft, .blockright,.moving-container::after{
     margin-top:-132px;
   }
 }
-
+@media (max-width:768px){
+  .blockleft, .blockright,.moving-container::after{
+    margin-top:-182px;
+  }
+}
 .moving-text span {
   margin-right:60px;
   
