@@ -349,13 +349,20 @@ nav, .d, .b, .topspace {
         background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)138%);
         pointer-events: none; /* Prevent interaction issues */
       }
-      @media (max-width: 1209px) {
+      @media (max-width: 768px) {
         .cont {
           object-fit:fill;
          margin-top:63px;
          width:524px;
          height:149px;
         }}
+        @media (min-width: 769px) and (max-width:1029px) {
+          .cont {
+            object-fit:fill;
+           margin-top:50px;
+           width:874px;
+           height:259px;
+          }}
  .registeroverlaytext{
   position:relative;
   top:-164px;

@@ -316,7 +316,7 @@ nav, .d, .b, .topspace {
       pointer-events: none; /* Prevent interaction issues */
     }
     
-    @media (max-width: 1209px) {
+    @media (max-width: 768px) {
       .cont {
         object-fit:fill;
        margin-top:40px;
@@ -324,7 +324,13 @@ nav, .d, .b, .topspace {
        height:149px;
       }}
   
-      
+      @media (min-width: 768px) and (max-width:1029px) {
+        .cont {
+          object-fit:fill;
+         margin-top:50px;
+         width:874px;
+         height:259px;
+        }}
   .contactoverlay{
     position:relative;
     top:-243px;

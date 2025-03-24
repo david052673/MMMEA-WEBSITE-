@@ -337,12 +337,12 @@ nav, .d, .b, .topspace {
          width:374px;
          height:149px;
         }}
-        @media (min-width: 768px) and (max-width:1029) {
+        @media (min-width: 769px) and (max-width:1029px) {
           .cont {
             object-fit:fill;
            margin-top:50px;
            width:874px;
-           height:179px;
+           height:259px;
           }}
    .textoverlay{
     position:relative;
