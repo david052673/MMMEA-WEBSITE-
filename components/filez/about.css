@@ -133,7 +133,7 @@ nav{
     color:red;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
      .popup a{
       color:black;
     }
@@ -220,7 +220,7 @@ nav{
   color: var(--black);
 }
 
-@media (max-width: 1509px) {
+@media (max-width:1209px) {
   .hamburger-menu {
       display: block;
   }
@@ -269,7 +269,7 @@ nav, .d, .b, .topspace {
     .c {
     height:50px;
     }}
-  @media (max-width: 768px) {
+  @media (max-width:1209px) {
       .imagz {
        padding-top:55px;
        width:100%;
@@ -284,12 +284,12 @@ nav, .d, .b, .topspace {
         height:30px;
       }
     }
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .c{
         height:30px;
       }
     }
-@media(max-width:768px){
+@media(max-width:1209px){
   .hamburger-menu{
     margin-top:8px;
     font-size:22px;
@@ -297,7 +297,7 @@ nav, .d, .b, .topspace {
   }
 }
   /*...additional styling for nav links on small screens...*/
-  @media (max-width: 1509px) {
+  @media (max-width: 1209px) {
     .b.open {
       display: flex;
       flex-direction: column;
@@ -324,14 +324,14 @@ nav, .d, .b, .topspace {
       text-align: left;
       color:white;
     }}
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .b.open a:hover{
        color:red;
       }
     }
 
 
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .imagz{
         height:142px;
       }
@@ -375,7 +375,7 @@ nav, .d, .b, .topspace {
       color:white;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width:1209px) {
       .vision {
         flex-direction: column; 
         align-items: stretch; 
@@ -396,7 +396,7 @@ nav, .d, .b, .topspace {
        }
       .section1 {
         flex-direction: column;}}
-        @media (max-width: 768px) {
+        @media (max-width: 1209px) {
           .memoryphoto {
            padding-top:7px;
            width:100%;
@@ -440,12 +440,12 @@ nav, .d, .b, .topspace {
     margin-left:2%;
     background: linear-gradient(to right,rgb(19, 81, 4), rgba(126, 106, 26, 0)179%);
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .fisrt, .second,.principlea,.principleb,.principlec, .principled, .principlee{
       font-size:14px;
     }
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .principlea, .principleb, .principlec, .principled, .principlee{
       display:block;
     }
@@ -502,7 +502,7 @@ color:rgb(245, 244, 248)
     background:black;
     margin-top:3%;   
   } 
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .footer{
       display:block;
     }
@@ -515,7 +515,7 @@ color:rgb(245, 244, 248)
    margin-left:1%;
    
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .footer1{
       font-size:18px;
     }
@@ -536,7 +536,7 @@ color:rgb(245, 244, 248)
   .a12x:hover{
     color:red
   }
-  @media(max-width: 768px){
+  @media(max-width: 1209px){
     .a12x{
      font-size:18px;
      margin-left:2%;
@@ -546,7 +546,7 @@ color:rgb(245, 244, 248)
     display:flex;
     background:rgba(226, 21, 21, 0.89);
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .footer, .footerpage{
       display:block;}
       .social-icons{
@@ -580,13 +580,13 @@ color:rgb(245, 244, 248)
   .social-icons a:hover {
     color:blue;
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .footer, .footerpage{
       display:block;}
       .social-icons{
         display:flex;
       }}
-  @media(max-width:768px){
+  @media(max-width:1209px){
         .social-icons{
           margin-left:42%;
           

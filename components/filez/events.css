@@ -129,7 +129,7 @@ div{
   .popup a:hover{
     color:red;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1209px) {
     .popup a{
      color:black;
    }
@@ -192,7 +192,7 @@ html, body {
   color: var(--black);
 }
 
-@media (max-width: 1509px) {
+@media (max-width: 1209px) {
   .hamburger-menu {
       display: block;
   }
@@ -213,7 +213,7 @@ html, body {
     font-size:10px;
     flex-direction: column;
   }}
-@media (max-width:768px) {
+@media (max-width:1209px) {
 
   .a{
     font-size:6px;
@@ -241,11 +241,11 @@ nav, .d, .b, .topspace {
     .c {
     height:45px;
     }}
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .c{
         height:30px;
       }}
-      @media(max-width:768px){
+      @media(max-width:1209px){
         .c{
           height:30px;
         }
@@ -261,7 +261,7 @@ nav, .d, .b, .topspace {
 
 
   /*...additional styling for nav links on small screens...*/
-  @media (max-width: 1509px) {
+  @media (max-width: 1209px) {
     .b.open {
       display: flex;
       flex-direction: column;
@@ -293,7 +293,7 @@ nav, .d, .b, .topspace {
     .cont{
       margin-top:70px;
     }
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .b.open a:hover{
        color:red;
       }
@@ -330,7 +330,7 @@ nav, .d, .b, .topspace {
         background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)38%);
         pointer-events: none; /* Prevent interaction issues */
       }
-      @media (max-width: 768px) {
+      @media (max-width: 1209px) {
         .cont {
           object-fit:fill;
          margin-top:50px;
@@ -346,7 +346,7 @@ nav, .d, .b, .topspace {
     margin-left:5%;
     font-size:32px;
    }
-   @media(max-width:768px){
+   @media(max-width:1209px){
     .textoverlay{
       font-size:27px;
     }
@@ -359,7 +359,7 @@ nav, .d, .b, .topspace {
    .event0{
     color:rgb(169, 16, 16)
    }
-   @media(max-width:768px){
+   @media(max-width:1209px){
     .event0{
       margin-top:54px;
       font-size:26px;
@@ -375,13 +375,13 @@ nav, .d, .b, .topspace {
    .event2{
    flex:2;
    }
-   @media(max-width:768px){
+   @media(max-width:1209px){
     .event1{
       font-size:18px;
     }
    }
   
-   @media(max-width:768px){
+   @media(max-width:1209px){
     .eventspagetext{
       display:block;
     }
@@ -393,7 +393,7 @@ nav, .d, .b, .topspace {
     margin-left:34%;
     font-size
    }
-   @media(max-width:768px){
+   @media(max-width:1209px){
     .title1{
       margin-left:6px;
       margin-top:12%;
@@ -404,7 +404,7 @@ nav, .d, .b, .topspace {
     margin-right:93%;
     line-height:12px;
    }
-   @media(max-width:768px){
+   @media(max-width:1209px){
     .sportstext{
       line-height:31px;
       width:372px;
@@ -430,7 +430,7 @@ nav, .d, .b, .topspace {
     flex:1;
     margin:4px;
    }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .sportpics{
       display:block;
     }
@@ -468,7 +468,7 @@ nav, .d, .b, .topspace {
    .outreachtpic{
     flex:6;
    }
-   @media(max-width:768px){
+   @media(max-width:1209px){
     .outreach{
       display:block;
     }
@@ -507,7 +507,7 @@ nav, .d, .b, .topspace {
     flex:1;
     margin:4px;
    }
-   @media(max-width:768px){
+   @media(max-width:1209px){
     .hikingpics{
       display:block;
     }
@@ -531,7 +531,7 @@ nav, .d, .b, .topspace {
     margin-left:12px;
     font-size:26px;
    }
-   @media(max-width:768px){
+   @media(max-width:1209px){
     .peering{
       display:block;
     }
@@ -544,7 +544,7 @@ nav, .d, .b, .topspace {
      }
 
    }
-   @media(max-width:768px){
+   @media(max-width:1209px){
     .peertext{
       font-size:24px;
     }
@@ -586,7 +586,7 @@ nav, .d, .b, .topspace {
       background:black;
       margin-top:3%;   
     } 
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .footer{
         display:block;
       }
@@ -599,7 +599,7 @@ nav, .d, .b, .topspace {
      margin-left:1%;
      
     }
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .footer1{
         font-size:18px;
       }
@@ -619,7 +619,7 @@ nav, .d, .b, .topspace {
     .a12x:hover{
       color:red
     }
-    @media(max-width: 768px){
+    @media(max-width: 1209px){
       .a12x{
        font-size:18px;
        margin-left:2%;
@@ -629,7 +629,7 @@ nav, .d, .b, .topspace {
       display:flex;
       background:rgba(226, 21, 21, 0.89);
     }
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .footer, .footerpage{
         display:block;}
         .social-icons{
@@ -662,13 +662,13 @@ nav, .d, .b, .topspace {
     .social-icons a:hover {
       color:blue;
     }
-@media(max-width:768px){
+@media(max-width:1209px){
       .footer, .footerpage{
         display:block;}
         .social-icons{
           display:flex;
         }}
-    @media(max-width:768px){
+    @media(max-width:1209px){
           .social-icons{
             margin-left:42%;
   }

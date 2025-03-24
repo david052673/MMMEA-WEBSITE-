@@ -130,7 +130,7 @@ div{
   .popup a:hover{
     color:red;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1209px) {
     .popup a{
      color:black;
    }
@@ -190,7 +190,7 @@ div{
   color: var(--black);
 }
 
-@media (max-width: 1509px) {
+@media (max-width: 1209px) {
   .hamburger-menu {
       display: block;
   }
@@ -239,12 +239,12 @@ nav, .d, .b, .topspace {
     .c {
     height:45px;
     }}
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .c{
         height:30px;
       }
     }
-    @media (max-width:768px) {
+    @media (max-width:1209px) {
       .a {
     
         font-size:6px;
@@ -259,7 +259,7 @@ nav, .d, .b, .topspace {
       }}
       
   /*...additional styling for nav links on small screens...*/
-  @media (max-width: 1509px) {
+  @media (max-width: 1209px) {
     .b.open {
       display: flex;
       flex-direction: column;
@@ -287,7 +287,7 @@ nav, .d, .b, .topspace {
       text-align: left;
       color:white;
     }}
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .b.open a:hover{
        color:red;
       }
@@ -315,7 +315,7 @@ nav, .d, .b, .topspace {
         background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)138%);
         pointer-events: none; /* Prevent interaction issues */
       }
-      @media (max-width: 768px) {
+      @media (max-width: 1209px) {
         .cont {
           object-fit:fill;
          margin-top:63px;
@@ -327,11 +327,11 @@ nav, .d, .b, .topspace {
   top:-164px;
   color:white;
  }
- @media (max-width: 768px) {
+ @media (max-width: 1209px) {
   .registeroverlaytext {
    font-size:18px;
    top:-118px;
-  }}@media (max-width:768px) {
+  }}@media (max-width:1209px) {
 
     .hamburger{
       margin-top:-7px;
@@ -361,7 +361,7 @@ nav, .d, .b, .topspace {
    cursor:pointer;
    background:rgb(185, 44, 44)
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .vicechair{
       margin-top:-11px;
     }
@@ -394,7 +394,7 @@ nav, .d, .b, .topspace {
   color:rgb(21, 41, 167);
     
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .approvaltext{
       height:478px;
       font-size:20px;
@@ -458,7 +458,7 @@ font-size:29px;
 .overlay-text:hover{
   font-size:39px;
 }
-@media(max-width:768px){
+@media(max-width:1209px){
   .membershipform, .overlay2{
     margin-left:2px;
     margin-right:2px;
@@ -505,7 +505,7 @@ font-size:29px;
   left:50%;
   transform: translate(-50%, -50%); /* Centers the diamond on the red line */
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .thinline{
       top:-3%;
       margin-bottom:5px;
@@ -526,7 +526,7 @@ font-size:29px;
    margin-left:1%;
    
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .footer{
       margin-top:-33px;
     }
@@ -551,7 +551,7 @@ font-size:29px;
   .a12x:hover{
     color:red
   }
-  @media(max-width: 768px){
+  @media(max-width: 1209px){
     .a12x{
      font-size:18px;
      margin-left:2%;
@@ -561,7 +561,7 @@ font-size:29px;
     display:flex;
     background:rgba(226, 21, 21, 0.89);
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .footer, .footerpage{
       display:block;}
       .social-icons{
@@ -594,18 +594,18 @@ font-size:29px;
   .social-icons a:hover {
     color:blue;
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .footer, .footerpage{
       display:block;}
       .social-icons{
         display:flex;
   }}
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .thinline{
       margin-top:383px;
       
     }}
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .footer1{
         margin-top:39px;
       }
@@ -615,7 +615,7 @@ font-size:29px;
     }
 
   
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .social-icons{
       margin-left:42%;
   }

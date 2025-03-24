@@ -18,7 +18,7 @@ div{
     display:flex;  
    }
 
-   @media (max-width: 768px){
+   @media (max-width: 1209px){
    .b{
     display:flex;
     align-items: center;
@@ -131,7 +131,7 @@ div{
 .popup a:hover{
   color:red;
 }
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .popup a{
    color:black;
  }
@@ -203,7 +203,7 @@ html, body {
 
 }
 
-@media (max-width: 1509px) {
+@media (max-width: 1209px) {
   .hamburger-menu {
       display: block;
   }
@@ -246,7 +246,7 @@ nav, .d, .b, .topspace {
     flex-direction: column;
   }}
 
-@media (max-width:768px) {
+@media (max-width:1209px) {
   .a {
 
     font-size:6px;
@@ -264,7 +264,7 @@ nav, .d, .b, .topspace {
     .c{
       height:45px;
     }}
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .c{
         height:30px;
       }
@@ -280,7 +280,7 @@ nav, .d, .b, .topspace {
 
 
   /*...additional styling for nav links on small screens...*/
-@media (max-width: 1509px) {
+@media (max-width: 1209px) {
   .b.open {
     display: flex;
     flex-direction: column;
@@ -308,7 +308,7 @@ nav, .d, .b, .topspace {
     text-align: left;
     color:white;
   }}
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .b.open a:hover{
      color:red;
     }
@@ -353,14 +353,14 @@ nav, .d, .b, .topspace {
     opacity: 0; /* Initially hide all images */
     transition: opacity 3s ease-in-out; /* Smooth fading effect */
 }
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .sacj {
     height:207px;
     width:100%;
     object-fit:fill;
     margin-top:12px; 
   }}
-  @media (max-width: 768px){
+  @media (max-width: 1209px){
     .slideshow{
       margin-top:66px;
     }
@@ -400,12 +400,12 @@ nav, .d, .b, .topspace {
 /* Add hover effect for buttons */
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */}
-@media(max-width:768px){
+@media(max-width:1209px){
   .prev, .next{
     top:104px;
     font-size:10px;
   }}
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .next{
       margin-right:-8%;
     }}
@@ -443,7 +443,7 @@ body {
   margin-top:-16px;
 
 }
-@media(max-width:768px){
+@media(max-width:1209px){
   .blockleft, .blockright,.moving-container::after{
     margin-top:-282px;
   }
@@ -454,7 +454,7 @@ body {
   
   z-index:998;
 }
-@media(max-width:768px){
+@media(max-width:1209px){
   .moving-text{
     font-size:18px;
   }
@@ -480,12 +480,12 @@ body {
   z-index:9000;
   border-radius:2px;
 }
-@media(max-width:768px){
+@media(max-width:1209px){
   .blockleft{
     top:21px;
   }
 }
-@media(max-width:768px){
+@media(max-width:1209px){
   .blockleft, .blockright{
     height:22px;
     width:12px;
@@ -512,7 +512,7 @@ body {
 .quick{
   margin-top:2%;
 }
-@media(max-width:768px){
+@media(max-width:1209px){
   .quick{
     font-size:23px;
   }
@@ -548,7 +548,7 @@ body {
   top:0;
   display:block;
 }
-@media (max-width:768px){
+@media (max-width:1209px){
   .sscl{
     margin-left:1px;
     padding:0px;
@@ -558,12 +558,12 @@ body {
     object-fit:fill;
     margin-left:-13px;
   }}
-@media (max-width:768px) {
+@media (max-width:1209px) {
   .acc {
     flex-direction: column; 
     align-items: stretch; 
   }}
-  @media (max-width: 768px) {
+  @media (max-width: 1209px) {
     .acc{
       flex-direction: column; 
       align-items: stretch; 
@@ -590,7 +590,7 @@ body {
   background:rgb(17, 218, 91);
   
 }
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .button{
    width:115px;
    height:26px;
@@ -613,7 +613,7 @@ body {
   margin-left:57%;
   color:rgb(214, 24, 49);
 }
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .schedl{
     margin-left:27%;
    
@@ -621,7 +621,7 @@ body {
 .schedulepart{
   display:block;
 }
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .schedulepartimage{
     margin-left:-9%;
    
@@ -633,7 +633,7 @@ body {
   top:-24%;
   margin-left:39%;  
 }
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .readmore{
     margin-top:-70px;
     margin-bottom:12%;
@@ -649,7 +649,7 @@ body {
   margin-right:114px;
   font-size:23px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .add{
     margin:7%;
     margin-top:-4px;
@@ -660,7 +660,7 @@ body {
   margin-left:23%;
   color:rgb(214, 24, 49);
 }
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .registerwith{
   margin-left:4%;
   }}
@@ -682,12 +682,12 @@ body {
 .rg2{
   flex:1;
 }
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .rg2{
     object-fit:contain;
 
   }}
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .schedulesection, .regwith, .shortcut,.footerpage, .footer{
     flex-direction: column; 
     align-items: stretch,center; 
@@ -729,7 +729,7 @@ body {
   margin-top:3%;
   color:rgb(24, 24, 214);
 }
-@media(max-width: 768px){
+@media(max-width: 1209px){
   .ww{
   margin-left:29%;
   }
@@ -739,7 +739,7 @@ body {
   font-size:26px;
   margin-left:38%;
 }
-@media(max-width: 768px){
+@media(max-width: 1209px){
   .ww2{
   margin-left:14%;
   font-size:16px;
@@ -768,7 +768,7 @@ body {
   flex:1;
 
 }
-@media(max-width: 768px){
+@media(max-width: 1209px){
   .y1, .y2,.y3{
   margin-bottom:-12%;
   }
@@ -795,7 +795,7 @@ color:white;
   line-height:2px;
   color:blue;
 }
-@media(max-width:768px){
+@media(max-width:1209px){
   .schedulec{
     font-size:13px;
     height:12px;
@@ -806,7 +806,7 @@ color:white;
   background:black;
   margin-top:2%;  
 } 
-@media(max-width:768px){
+@media(max-width:1209px){
   .footer{
     display:block;
   }
@@ -819,7 +819,7 @@ color:white;
  margin-left:1%;
  
 }
-@media(max-width:768px){
+@media(max-width:1209px){
   .footer1{
     font-size:18px;
   }
@@ -839,7 +839,7 @@ color:white;
 .a12x:hover{
   color:red
 }
-@media(max-width: 768px){
+@media(max-width: 1209px){
   .a12x{
    font-size:18px;
    margin-left:2%;
@@ -849,7 +849,7 @@ color:white;
   display:flex;
   background:rgba(226, 21, 21, 0.89);
 }
-@media(max-width:768px){
+@media(max-width:1209px){
   .footer, .footerpage{
     display:block;}
     .social-icons{
@@ -883,7 +883,7 @@ color:white;
   color:blue;
 }
 
-@media(max-width:768px){
+@media(max-width:1209px){
 .social-icons{
   margin-left:42%;
 }

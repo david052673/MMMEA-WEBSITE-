@@ -130,7 +130,7 @@ div{
   .popup a:hover{
     color:red;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1209px) {
     .popup a{
      color:black;
    }
@@ -208,7 +208,7 @@ div{
   color: var(--black);
 }
 
-@media (max-width: 1302px) {
+@media (max-width: 1209px) {
   .hamburger-menu {
       display: block;
   }
@@ -251,14 +251,14 @@ nav, .d, .b, .topspace {
     font-size:10px;
     flex-direction: column;
   }}
-@media (max-width: 768px) {
+@media (max-width: 1209px) {
   .a {
 
     font-size:7px;
     flex-direction: column;
   }}
   
-  @media (max-width:768px) {
+  @media (max-width:1209px) {
     .c {
     height:45px;
     }
@@ -281,7 +281,7 @@ nav, .d, .b, .topspace {
         .c {
         height:45px;
         }}
-        @media(max-width:768px){
+        @media(max-width:1209px){
           .c{
             height:30px;
           }
@@ -320,7 +320,7 @@ nav, .d, .b, .topspace {
       text-align: left;
       color:white;
     }}
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .b.open a:hover{
        color:red;
       }
@@ -349,7 +349,7 @@ nav, .d, .b, .topspace {
         background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)138%);
         pointer-events: none; /* Prevent interaction issues */
       }
-      @media (max-width: 768px) {
+      @media (max-width: 1209px) {
         .cont {
           object-fit:fill;
          margin-top:63px;
@@ -361,11 +361,11 @@ nav, .d, .b, .topspace {
   top:-164px;
   color:white;
  }
- @media (max-width: 768px) {
+ @media (max-width: 1209px) {
   .registeroverlaytext {
    font-size:18px;
    top:-118px;
-  }}@media (max-width:768px) {
+  }}@media (max-width:1209px) {
 
     .hamburger{
       margin-top:-7px;
@@ -380,7 +380,7 @@ nav, .d, .b, .topspace {
     color:rgb(20, 77, 190);
     padding-bottom:43px;
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .registerbody{
       margin-top:-49px;
     }
@@ -389,12 +389,12 @@ nav, .d, .b, .topspace {
     margin-left:22px;
     margin-right:76px;
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .registertext{
       margin-right:2px;
     padding-right:1px;}
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .rejista{
       display:block;
     }
@@ -408,7 +408,7 @@ nav, .d, .b, .topspace {
     height:445px;
     width:634px;
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .paymentpic{
       width:329px;
       height:239px;
@@ -430,7 +430,7 @@ nav, .d, .b, .topspace {
       height:78px;
 
   }
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .registerbutton{
       margin-left:96px;
       margin-top:32px;
@@ -447,7 +447,7 @@ nav, .d, .b, .topspace {
   .registertext4:hover{
     color:red;
   }
-@media(max-width:768px){
+@media(max-width:1209px){
   .button{
     margin-bottom:-182px;
   }
@@ -506,7 +506,7 @@ font-size:29px;
 }
 .overlay-text:hover{
   font-size:39px;}
-@media(max-width:768px){
+@media(max-width:1209px){
   .membershipform, .overlay2{
     margin-left:-652px;
     
@@ -557,7 +557,7 @@ font-size:29px;
       background:black;
       margin-top:5%;   
     } 
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .footer{
         display:block;
         margin-top:-143px;
@@ -574,7 +574,7 @@ font-size:29px;
      margin-left:1%;
      
     }
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .footer1{
         font-size:18px;
       }
@@ -594,7 +594,7 @@ font-size:29px;
     .a12x:hover{
       color:red
     }
-    @media(max-width: 768px){
+    @media(max-width: 1209px){
       .a12x{
        font-size:18px;
        margin-left:2%;
@@ -604,7 +604,7 @@ font-size:29px;
       display:flex;
       background:rgba(226, 21, 21, 0.89);
     }
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .footer, .footerpage{
         display:block;}
         .social-icons{
@@ -637,13 +637,13 @@ font-size:29px;
     .social-icons a:hover {
       color:blue;
     }
-    @media(max-width:768px){
+    @media(max-width:1209px){
       .footer, .footerpage{
         display:block;}
         .social-icons{
           display:flex;
   }}
-  @media(max-width:768px){
+  @media(max-width:1209px){
     .social-icons{
       margin-left:42%;
   }
