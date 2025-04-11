@@ -629,8 +629,11 @@ color:blue;
     margin-left:2px;
   }
 
-  .lo, .lcr22{
-    font-size:17px;
+  .lo,{
+    font-size:20px;
+  }
+  .lcr22{
+    font-size:22px;
   }
   }
 
