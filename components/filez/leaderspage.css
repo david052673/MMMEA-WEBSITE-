@@ -621,13 +621,14 @@ color:blue;
       margin-bottom:12px;
 
     }
+    .lcr{
+      margin-left:1px;
+    }
   .lc,.lc1,.lc2,.lv,.lv1,.lv2,.ls,.ls1,.ls2,.lvs,.lvs1,.lo,.lo1,.lo2,.lvo,.lvo1,
-  .lcr,.lcr1,.lcr2,.lcr22,.lstc1,.lstc11,.lstc2,.lstc22,.lstc3,.lstc33,.ldc,.ldc1{
+  .lcr,.lcr1,.lcr2,.lcr22,.lstc1,.lstc11,.lstc2,.lstc22,.lstc3,.lstc33,.ldc,.ldc1,.lcr33, .lcr3{
     margin-left:2px;
   }
-  .lcr{
-    margin-left:2px;
-  }
+
   .lo, .lcr22{
     font-size:17px;
   }
