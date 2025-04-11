@@ -497,14 +497,15 @@ nav, .d, .b, .topspace {
       box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
       height:655px;
       margin-bottom:3%;
-      margin-right:6.5%;
+      margin-left:1%;
+      margin-right:6.5%
       
     }
     .lcr{
-    padding-left:22%;
+    padding-left:15.5%;
     }
   .lcr1{
-    margin-left:21%;
+    margin-left:15%;
     color:blue;
   }
 
@@ -517,10 +518,10 @@ nav, .d, .b, .topspace {
         
       }
       .lcr2{
-   margin-left:28%;
+   margin-left:31%;
       }
     .lcr22{
-    margin-left:3.5%;
+    margin-left:24%;
     color:blue;
      }
 
@@ -529,17 +530,31 @@ nav, .d, .b, .topspace {
       box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
       height:655px;
       margin-bottom:3%;
+      margin-left:-2%;
       
     }
-    .lstc1{
- margin-left:37%;
+    .lcr3{
+ margin-left:22%;
     }
-  .lstc11{
-  margin-left:28.5%;
+  .lcr33{
+  margin-left:20%;
   color:blue;
    }
-
    .leader10{
+    display:block;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    height:655px;
+    margin-bottom:3%;
+    margin-right:4%;
+  }
+  .lstc1{
+  margin-left:29%;
+  }
+  .lstc11{
+  margin-left:19%;
+  color:blue;
+  }
+   .leader11{
     display:block;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     height:655px;
@@ -554,12 +569,13 @@ margin-left:24%;
 color:blue;
  }
 
- .leader11{
+ .leader12{
   display:block;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
   height:655px;
   margin-bottom:3%;
-  margin-right:4%;
+  margin-left:2%;
+
 }
 .lstc3{
 margin-left:25%;
@@ -569,7 +585,7 @@ margin-left:20%;
 color:blue;
 }
 
-.leader12{
+.leader13{
   display:block;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
   height:655px;
@@ -583,6 +599,7 @@ margin-left:32%;
 margin-left:20%;
 color:blue;
 }
+
 
    @media(max-width:1209px){
     .leaders{
